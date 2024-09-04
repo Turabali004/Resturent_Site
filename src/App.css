@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: 'Fede Ro', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Fede Ro', sans-serif;
+}
