@@ -11,9 +11,6 @@ function App() {
         {/* <Route path='/about' element={<About />} /> */}
       </Routes>
 
-      <div className='h-96 w-full'></div>
-    
-
 
       <div className='h-96 w-full'></div>
     </>
