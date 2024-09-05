@@ -21,15 +21,17 @@ import homeBookingImg from "../../../public/images/homeresturent.png";
 import homeChefImg from "../../../public/images/homechef.png";
 import homeFamilyHallImg from "../../../public/images/homeguest.png";
 
-import {Footer} from "../../components/index";
+import { Footer } from "../../components/index";
 
 const HeroSection = () => {
+  
   const categories = [
     { title: "Dessert", image: categoryImg1 },
     { title: "Fast Food", image: categoryImg2 },
     { title: "Dessert", image: categoryImg3 },
     { title: "Dessert", image: categoryImg4 },
   ];
+
   const chefs = [
     {
       name: "D. Estwood",
@@ -52,6 +54,7 @@ const HeroSection = () => {
       imageUrl: homeChefImg,
     },
   ];
+
   const services = [
     {
       icon: <FaConciergeBell className="text-6xl text-gray-600 mb-4" />,
@@ -72,6 +75,7 @@ const HeroSection = () => {
         "Lorem ipsum dolor sit amet consectetur. Consequat pretium pellentesque venenatis odio cras posuere leo nulla etiam.",
     },
   ];
+
   return (
     <>
       <div className="flex flex-col md:flex-row">
@@ -366,9 +370,6 @@ const HeroSection = () => {
           ))}
         </div>
       </section>
-
-
-      <Footer/>
 
     </>
   );
